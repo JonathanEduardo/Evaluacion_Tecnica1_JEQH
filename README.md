@@ -35,13 +35,11 @@ Esta es una API RESTful para la gestión de una biblioteca.
 
 #### Endpoints Autores
 - **1. GET Listar Todos Autores**
-  ```bash cmd
-curl -X GET http://127.0.0.1:8000/api/autores/
+  ```bash curl -X GET http://127.0.0.1:8000/api/autores/
 
 
 - **2. POST Nuevo Autores**
-  ```bash cmd
-curl -X POST http://127.0.0.1:8000/api/autores/ -H "Content-Type: application/json" -d "{\"nombre\": \"Joaquin\", \"apellido\": \"Morales Arechiga\", \"fecha_nacimiento\": \"2007-03-06\"}"
+  ```bash cmd curl -X POST http://127.0.0.1:8000/api/autores/ -H "Content-Type: application/json" -d "{\"nombre\": \"Joaquin\", \"apellido\": \"Morales Arechiga\", \"fecha_nacimiento\": \"2007-03-06\"}"
 
 
 - **3. GET Obtener Autor con id : 1**
