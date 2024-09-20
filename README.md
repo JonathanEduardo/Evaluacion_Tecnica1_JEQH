@@ -3,40 +3,32 @@ Esta es una API RESTful para la gestión de una biblioteca.
 
 ## Clonar el Repositorio
 - **Para clonar el repositorio, utiliza el siguiente comando en tu terminal:**
-    ```bash
-git clone https://github.com/usuario/repo.git
+    ```git clone https://github.com/usuario/repo.git
 
 - **Crear entorno virtual**
-    ```bash 
-python -m venv env
+    ```python -m venv env
 
 - **Activar entorno virtual windows | linux**
-    ```bash 
-.\env\Scripts\activate  |  source env/bin/activate
+    ```.\env\Scripts\activate  |  source env/bin/activate
 
 - **Instalar dependencias**
-    ```bash 
-pip install -r requirements.txt
+    ```pip install -r requirements.txt
 
 - **Crear base datos manual o con comando**
-    ```bash 
-CREATE DATABASE biblioteca_db;
+    ```CREATE DATABASE biblioteca_db;
 
 - **Configura las credenciales de conexión en el archivo settings.py**
 
 
 - **Realizar las migraciones de base de datos**
-    ```bash 
-python manage.py migrate
+    ```python manage.py migrate
 
 - **Cargar datos iniciales (Bonus)**
-    ```bash 
-python manage.py loaddata datos_iniciales.json
+    ```python manage.py loaddata datos_iniciales.json
 
 
 - **Ejecutar la Aplicación**
-    ```bash 
-python manage.py runserver
+    ```python manage.py runserver
 
 
 
