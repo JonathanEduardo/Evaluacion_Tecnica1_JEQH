@@ -1,0 +1,8 @@
+En consola de comandos
+
+1. GET Listar Autores
+curl -X GET http://127.0.0.1:8000/api/autores/
+
+2. POST Nuevo Autores
+curl -X POST http://127.0.0.1:8000/api/autores/ -H "Content-Type: application/json" -d "{\"nombre\": \"Joaquin\", \"apellido\": \"Morales Arechiga\", \"fecha_nacimiento\": \"2007-03-06\"}"
+
