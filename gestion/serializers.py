@@ -1,15 +1,15 @@
-# SETTINS ENDPOINTS API g m
+# SETTINS ENDPOINTS API 
 from rest_framework import serializers
 from .models import Autor, Libro
 
-#Serializacion  poara el modelo Autor
+#Serializer model Autor
 class AutorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Autor 
-        fields = '__all__' #incluimos todos los campos del modelo establecido
+        fields = '__all__' #Include all the fields of the established model
 
-#Serializacion  poara el modelo Libro
+#Serializer model Libro
 class LibroSerializer(serializers.ModelSerializer):
     class Meta:
         model = Libro
-        fields = '__all__' #incluimos todos los campos del modelo establecido
+        fields = '__all__' #Include all the fields of the established model
