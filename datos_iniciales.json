@@ -1,0 +1,182 @@
+[
+    {
+        "model": "gestion.autor",  
+        "pk": 1,
+        "fields": {
+            "nombre": "Gabriel",
+            "apellido": "Morales",
+            "fecha_nacimiento": "1980-01-01"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 2,
+        "fields": {
+            "nombre": "Ana",
+            "apellido": "Gómez",
+            "fecha_nacimiento": "1990-05-12"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 3,
+        "fields": {
+            "nombre": "Luis",
+            "apellido": "Pérez",
+            "fecha_nacimiento": "1975-09-25"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 4,
+        "fields": {
+            "nombre": "Marta",
+            "apellido": "Rodríguez",
+            "fecha_nacimiento": "1985-03-15"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 5,
+        "fields": {
+            "nombre": "Carlos",
+            "apellido": "Fernández",
+            "fecha_nacimiento": "1992-11-30"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 6,
+        "fields": {
+            "nombre": "Lucía",
+            "apellido": "Martínez",
+            "fecha_nacimiento": "1988-07-22"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 7,
+        "fields": {
+            "nombre": "Javier",
+            "apellido": "Sánchez",
+            "fecha_nacimiento": "1983-12-10"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 8,
+        "fields": {
+            "nombre": "Elena",
+            "apellido": "Hernández",
+            "fecha_nacimiento": "1995-06-18"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 9,
+        "fields": {
+            "nombre": "Pedro",
+            "apellido": "Gutiérrez",
+            "fecha_nacimiento": "1978-02-20"
+        }
+    },
+    {
+        "model": "gestion.autor",
+        "pk": 10,
+        "fields": {
+            "nombre": "Sofía",
+            "apellido": "Díaz",
+            "fecha_nacimiento": "1993-04-28"
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 1,
+        "fields": {
+            "titulo": "El Arte de la Guerra",
+            "fecha_publicacion": "2000-01-01",
+            "autor": 1
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 2,
+        "fields": {
+            "titulo": "Cien Años de Soledad",
+            "fecha_publicacion": "1967-05-30",
+            "autor": 2
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 3,
+        "fields": {
+            "titulo": "Don Quijote de la Mancha",
+            "fecha_publicacion": "1605-01-16",
+            "autor": 3
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 4,
+        "fields": {
+            "titulo": "La Casa de los Espíritus",
+            "fecha_publicacion": "1982-01-01",
+            "autor": 4
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 5,
+        "fields": {
+            "titulo": "Cien Años de Soledad",
+            "fecha_publicacion": "1967-06-01",
+            "autor": 5
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 6,
+        "fields": {
+            "titulo": "El Principito",
+            "fecha_publicacion": "1943-04-06",
+            "autor": 6
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 7,
+        "fields": {
+            "titulo": "1984",
+            "fecha_publicacion": "1949-06-08",
+            "autor": 7
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 8,
+        "fields": {
+            "titulo": "El Alquimista",
+            "fecha_publicacion": "1988-04-15",
+            "autor": 8
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 9,
+        "fields": {
+            "titulo": "La Sombra del Viento",
+            "fecha_publicacion": "2001-04-17",
+            "autor": 9
+        }
+    },
+    {
+        "model": "gestion.libro",
+        "pk": 10,
+        "fields": {
+            "titulo": "El Hobbit",
+            "fecha_publicacion": "1937-09-21",
+            "autor": 10
+        }
+    }
+]

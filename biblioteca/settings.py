@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'biblioteca.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'biblioteca',  # data base name
+        'NAME': 'biblioteca_db',  # data base name
         'USER': 'postgres',         # my user localhost
         'PASSWORD': '12345678', # password 
         'HOST': 'localhost',    # localhost

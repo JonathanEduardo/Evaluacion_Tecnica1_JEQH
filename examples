@@ -6,3 +6,11 @@ curl -X GET http://127.0.0.1:8000/api/autores/
 2. POST Nuevo Autores
 curl -X POST http://127.0.0.1:8000/api/autores/ -H "Content-Type: application/json" -d "{\"nombre\": \"Joaquin\", \"apellido\": \"Morales Arechiga\", \"fecha_nacimiento\": \"2007-03-06\"}"
 
+3. GET Obtener Autornto con id : 1
+curl -X GET http://127.0.0.1:8000/api/autores/1/
+
+4. PUT Modificar autor con id : 1
+curl -X PUT http://127.0.0.1:8000/api/autores/1/ -H "Content-Type: application/json" -d "{\"nombre\": \"Jhon\", \"apellido\": \"Lopez\", \"fecha_nacimiento\": \"2000-01-01\"}"
+
+
+
