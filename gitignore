@@ -1,0 +1,11 @@
+# Ignorar el entorno virtual
+env/
+
+# Ignorar archivos de migraciones, bases de datos locales, etc.
+*.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de configuraciones locales
+.env
